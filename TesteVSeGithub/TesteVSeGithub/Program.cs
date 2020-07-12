@@ -19,6 +19,10 @@ namespace TesteVSeGithub
 		{
 			return ("Teste");
 		}
+		public string NovaFunctionBranchCorrecoes()
+		{
+			return ("Teste");
+		}
 		public static IHostBuilder CreateHostBuilder(string[] args) =>
 			Host.CreateDefaultBuilder(args)
 				.ConfigureWebHostDefaults(webBuilder =>
