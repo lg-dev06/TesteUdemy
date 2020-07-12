@@ -15,7 +15,10 @@ namespace TesteVSeGithub
 		{
 			CreateHostBuilder(args).Build().Run();
 		}
-
+		public string NovaFunction ()
+		{
+			return ("Teste");
+		}
 		public static IHostBuilder CreateHostBuilder(string[] args) =>
 			Host.CreateDefaultBuilder(args)
 				.ConfigureWebHostDefaults(webBuilder =>
